@@ -1,8 +1,23 @@
 @font-face {
   font-family: 'Nexa';
-  src: url('/font/nexaregular.woff2') format('woff2'),
-       url('/font/nexalight.woff2') format('woff2'),
-       url('/font/nexalight.woff2') format('woff2');
+  src: url('/font/nexaregular.woff2') format('woff2');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('/font/nexalight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('/font/nexabold.woff2') format('woff2');
+  font-weight: 600 800;
   font-style: normal;
   font-display: swap;
 }
